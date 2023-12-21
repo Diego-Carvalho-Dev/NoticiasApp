@@ -1,0 +1,20 @@
+.postSection{
+    padding: 3.75rem 0;
+    ul{
+        display: flex;
+        gap: 1.5rem;
+
+        margin-right: -1.5rem;
+        padding-right: 1.5rem;
+
+        padding-bottom: 1.5rem;
+
+        margin-top: 30px;
+        overflow: auto;
+
+        li{            
+            width: 100%;
+            min-width: clamp(220px, 100%, 300px);
+        }
+    }
+}

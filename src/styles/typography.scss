@@ -1,0 +1,48 @@
+.title{
+    font-family: var(--font-primary);
+    font-weight: 800;
+    line-height: 1.6;
+    color: var(--color-black);
+
+    &.one{
+        font-size: clamp(2rem, 6vw, 3.25rem);
+    }
+
+    &.two{
+        font-size: clamp(1.125rem, 3vw, 1.5rem);
+    }
+
+    &.blog{
+        font-size: clamp(1.8rem, 5vw, 2.75rem);
+    }
+
+    &.center{
+        text-align: center;
+    }
+}
+
+.paragraph{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: clamp(1rem, 2vw, 1.3125rem);
+    color: var(--black);
+
+    &.bold, strong{
+        font-weight: 800;
+    }
+
+    &.center{
+        text-align: center;
+    }
+}
+
+.link{
+    font-family: var(--font-primary);
+    font-weight: 800;
+    color: var(--color-blue);
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

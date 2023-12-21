@@ -1,0 +1,28 @@
+.contactSection{
+    padding: 3.75rem 0;
+    .flexBox{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2.5rem;
+
+        h1, p{
+            margin-bottom: 32px;
+        }
+
+        form{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        @media (min-width: 800px){
+            align-items: center;
+            flex-direction: row;
+            & > img, & > div{
+                width: 50%;
+            }
+        }
+       
+    }
+}
